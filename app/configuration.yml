@@ -1,0 +1,10 @@
+---
+connections:
+  url: ''
+  ssl_verify: False
+  username: ''
+  password: ''
+  userid: 
+
+jobs: []
+
