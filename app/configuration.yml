@@ -1,13 +1,13 @@
 ---
 connections:
-  url: 'http://192.168.100.115'
+  url: 'http://192.168.XX.XX'
   ssl_verify: False
-  username: 'monitoreo'
-  password: 'monitoreo'
-  userid: 11
+  username: 'user'
+  password: 'password'
+  userid: 1
 
 jobs:
-- 9
-- 13
-- 14
+- 1
+- 2
+- 3
 
