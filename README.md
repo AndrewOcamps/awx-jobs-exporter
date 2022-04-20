@@ -40,7 +40,7 @@ systemctl enable awx_jobs_exporter.service
 
 ```
 
-- Verificamos que esté escuchando en el puerto **99091**:
+- Verificamos que esté escuchando en el puerto **9091**:
 ```
 netstat -ptnl |grep 9091
 ```
