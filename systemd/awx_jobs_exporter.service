@@ -1,0 +1,11 @@
+[Unit]
+Description=awx exporter service
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=root
+ExecStart=/usr/bin/env python3 /path/exporter/awx-jobs-exporter.py --config /path/configuration/configuration.yml 
